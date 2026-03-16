@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aprendiendo las etiquetas básicas</title>
+    <link rel="stylesheet" href="css/style.css">
+    
+    <!--<style>
+        body { font-family: sans-serif; line-height: 1.6; max-width: 800px; margin: auto; padding: 20px; background-color: #f4f4f4; }
+        section { background: white; padding: 20px; border-radius: 8px; margin-bottom: 20px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+        code { background: #eee; padding: 2px 5px; border-radius: 4px; color: #d63384; }
+    </style>-->
+
+</head>
+<body>
+
+    <header>
+        <h1>Estructura de una Página Web</h1>
+        <p>Esta es la etiqueta <code>&lt;header&gt;</code>, usada para encabezados.</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#titulos">Títulos</a></li>
+            <li><a href="#textos">Textos y Enlaces</a></li>
+            <li><a href="#multimedia">Multimedia</a></li>
+            <li><a href="#listas">Listas</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="titulos">
+            <h2>1. Títulos (Headings)</h2>
+            <p>Los títulos van del <code>&lt;h1&gt;</code> al <code>&lt;h6&gt;</code> según su importancia.</p>
+            <h3>Este es un H3</h3>
+            <h4>Este es un H4</h4>
+        </section>
+
+        <section id="textos">
+            <h2>2. Textos y Enlaces</h2>
+            <p>La etiqueta <code>&lt;p&gt;</code> se usa para párrafos de texto.</p>
+            <p>Puedes usar <strong>negrita con la etiqueta strong</strong> o <em>cursiva con la etiqueta em</em>.</p>
+            <p>Para ir a otro sitio, usamos la etiqueta de enlace: 
+                <a href="https://www.google.com" target="_blank">Haz clic aquí para ir a Google</a>.
+            </p>
+        </section>
+
+        <section id="multimedia">
+            <h2>3. Imágenes y Multimedia</h2>
+            <p>Para mostrar una imagen usamos <code>&lt;img&gt;</code>:</p>
+            <img src="https://via.placeholder.com/300x150" alt="Imagen de ejemplo">
+            <p><small>Nota: La etiqueta img no tiene cierre automático.</small></p>
+        </section>
+
+        <section id="listas">
+            <h2>4. Listas</h2>
+            <h3>Lista desordenada (con viñetas):</h3>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+            </ul>
+
+            <h3>Lista ordenada (con números):</h3>
+            <ol>
+                <li>Instalar VS Code</li>
+                <li>Instalar Git</li>
+                <li>Crear repositorio</li>
+            </ol>
+        </section>
+
+         <section id="tablas">
+            <h2>5. Tablas de Datos</h2>
+            <p>Usamos <code>&lt;table&gt;</code> para organizar información en filas y columnas.</p>
+            <table border="1" style="width:100%; border-collapse: collapse; text-align: left;">
+                <thead>
+                    <tr style="background-color: #333; color: white;">
+                        <th>Herramienta</th>
+                        <th>Función Principal</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>HTML</td>
+                        <td>Estructura del contenido</td>
+                    </tr>
+                    <tr>
+                        <td>CSS</td>
+                        <td>Diseño y apariencia</td>
+                    </tr>
+                    <tr>
+                        <td>Git</td>
+                        <td>Control de versiones</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="formularios">
+            <h2>6. Formularios (Interacción)</h2>
+            <p>Los formularios permiten que el usuario nos envíe información.</p>
+            <form>
+                <div style="margin-bottom: 10px;">
+                    <label for="nombre">Nombre:</label><br>
+                    <input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre">
+                </div>
+
+                <div style="margin-bottom: 10px;">
+                    <label for="correo">Correo Electrónico:</label><br>
+                    <input type="email" id="correo" name="correo" required placeholder="tu@email.com">
+                </div>
+
+                <div style="margin-bottom: 10px;">
+                    <label>¿Qué herramienta te gusta más?</label><br>
+                    <input type="radio" id="html" name="fav" value="HTML"> <label for="html">HTML</label>
+                    <input type="radio" id="git" name="fav" value="Git"> <label for="git">Git</label>
+                </div>
+
+                <div style="margin-bottom: 10px;">
+                    <label for="comentario">Comentarios:</label><br>
+                    <textarea id="comentario" name="comentario" rows="3" style="width: 100%;"></textarea>
+                </div>
+
+                <button type="submit" style="background-color: #28a745; color: white; border: none; padding: 10px 20px; border-radius: 4px; cursor: pointer;">
+                    Enviar Datos
+                </button>
+            </form>
+        </section>
+
+          <section id="multimedia-externa">
+            <h2>7. Contenido Externo (Iframes)</h2>
+            <p>Usamos la etiqueta <code>&lt;iframe&gt;</code> para incrustar contenido de otros sitios web.</p>
+            
+            <h3>Video de YouTube</h3>
+            <div style="aspect-ratio: 16/9;">
+                <iframe width="100%" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" 
+                    title="Reproductor de video de YouTube" frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                    allowfullscreen></iframe>
+            </div>
+
+            <h3>Ubicación (Google Maps)</h3>
+            <div style="margin-top: 20px;">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.0167132768406!2d-58.3841507242598!3d-34.60373887295116!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4aa421b4636831fd%3A0x6739b6999cc0e0!2sObelisco!5e0!3m2!1ses-419!2sar!4v1700000000000!5m2!1ses-419!2sar" 
+                    width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 - Guía elaborada para la clase de Diseño Web por Pol monsalvo</p>
+    </footer>
+
+</body>
+</html>
