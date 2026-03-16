@@ -1,0 +1,71 @@
+/* Estilos base para que se vea limpio */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e9ecef;
+    margin: 0;
+    padding: 20px;
+    color: #333;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+section {
+    background: white;
+    padding: 20px;
+    margin-bottom: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* Estilos de las "Cajas" del laboratorio */
+.contenedor {
+    background-color: #dee2e6;
+    border: 2px dashed #adb5bd;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.caja {
+    width: 80px;
+    height: 80px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    background-color: #6c757d; /* Color por defecto */
+}
+
+.roja { background-color: #e74c3c; }
+.azul { background-color: #3498db; }
+.verde { background-color: #2ecc71; }
+
+/* --- AQUÍ EMPIEZA LA MAGIA DE FLEXBOX --- */
+
+/* Ejercicio 1: Cambia justify-content por: flex-start, flex-end, center, space-between, space-around */
+.contenedor-horizontal {
+    display: flex;
+    justify-content: space-around; 
+}
+
+/* Ejercicio 2: Cambia align-items por: flex-start, flex-end, center */
+.contenedor-vertical {
+    display: flex;
+    height: 250px; /* Altura para ver el movimiento vertical */
+    align-items: center;
+    justify-content: center; /* También centramos horizontal */
+    flex-direction: column; /* 👈 Esto hace que se pongan uno debajo del otro */
+    gap: 10px;              /* Espacio entre las cajas */
+}
+
+/* Ejercicio 3: Flex-wrap permite que los elementos bajen al faltar espacio */
+.contenedor-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px; /* Espacio entre cajas */
+}
