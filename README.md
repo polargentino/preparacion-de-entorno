@@ -171,3 +171,124 @@ Para dar por finalizada la tarea, deben realizar el ciclo de Git que ya conocemo
 ---
 *¡A darle átomos! Si tienen dudas con las rutas de las imágenes, me consultan.*
 
+----------------------------------------------------------------------------------------------------
+
+# 27/03/2026
+
+# 📝 Tarea: El Desafío del Arquitecto Web (IA + Código)
+**Fecha:** 27 de marzo de 2026  
+**Docente:** Pol Monsalvo  
+
+Como ya dominan la creación de archivos HTML/CSS, el **Vibe Coding** y el flujo de trabajo profesional con **Git** en la terminal de VS Code, hoy vamos a subir de nivel. El objetivo es que aprendan a usar la Inteligencia Artificial como un mentor técnico para construir su propia ruta de aprendizaje.
+
+---
+
+## 🎯 Instrucciones de la Tarea
+
+### 1. Investigación con IA (Prompt Engineering)
+Deben consultar a distintas IAs (ChatGPT, Gemini, Claude) para obtener una **hoja de ruta (Roadmap)**. Copien y peguen este "Prompt Maestro" para obtener mejores resultados:
+
+> *"Actúa como un mentor experto en Frontend. Dame una lista de 5 a 8 proyectos de páginas web ordenados por dificultad (de nivel 0 a experto). Para cada proyecto, dime qué conceptos clave de HTML y CSS debo aprender (ej: Flexbox, Grid, Responsive, Animaciones, Pseudo-clases). Quiero una ruta clara para dominar el diseño web profesional."*
+
+### 2. Réplica y Experimentación
+En su entorno local (VS Code):
+* Seleccionen los proyectos de la lista.
+* **Replíquenlos** uno por uno.
+* Utilicen la terminal para crear las carpetas y archivos necesarios.
+* Vean los resultados en tiempo real con **Live Server**.
+
+### 3. Documentación Técnica (.md)
+Creen un archivo llamado `APRENDIZAJE.md` en su repositorio donde:
+* Enumeren los temas abordados (ej: "Hoy aprendí CSS Grid").
+* Expliquen brevemente para qué sirve cada concepto.
+* Suban este archivo a GitHub junto con el código de las prácticas.
+
+### 4. Creación Original (El examen real)
+Una vez que entiendan los conceptos de la IA, deben crear **3 páginas web nuevas**:
+* **Temática:** Personal (Portfolio, Hobby, CV, Negocio propio).
+* **Requisito:** Deben aplicar lo aprendido en la ruta anterior pero con diseño y contenido **100% propio**. No se vale copiar el diseño de la IA aquí.
+
+### 5. Entrega
+Al finalizar, realicen el `push` final a GitHub y envíen el link de su **GitHub Pages** al grupo de estudio de Diseño Web.
+
+---
+
+## 💡 Comandos Rápidos de Recordatorio
+Si se olvidan de los pasos en la terminal:
+1. `git status` (Para ver qué cambió).
+2. `git add .` (Para preparar los archivos).
+3. `git commit -m "Logro: Finalizada página X de la ruta"` (Para guardar el progreso).
+4. `git push` (Para subirlo a la nube).
+
+
+**¡A trabajar! Recuerden que la IA es una herramienta, pero el código lo entienden y lo dominan ustedes. ¡Éxitos!**
+
+
+
+------------------------------------------------------------------------------------
+
+
+
+# 📑 Plantilla de Seguimiento: Mi Ruta de Aprendizaje Web
+**Alumno:** [Tu Nombre Aquí]  
+**Fecha de inicio:** 27/03/2026
+
+Este documento sirve como bitácora de mi progreso desde nivel 0 hasta experto en Diseño Web Frontend.
+
+---
+
+## 🗺️ 1. Mi Hoja de Ruta (Roadmap)
+*Lista de proyectos sugeridos por la IA para dominar HTML y CSS:*
+
+1.  **Nivel Inicial:** [Nombre del Proyecto 1]
+2.  **Nivel Intermedio:** [Nombre del Proyecto 2]
+3.  **Nivel Avanzado:** [Nombre del Proyecto 3]
+4.  **Nivel Experto:** [Nombre del Proyecto 4]
+
+---
+
+## 🧠 2. Conceptos Técnicos Aprendidos
+*En esta sección documento qué aprendí en cada etapa:*
+
+### 🔹 Maquetación y Estructura
+- [ ] **Semántica HTML5:** Uso correcto de `<main>`, `<article>`, `<aside>`, etc.
+- [ ] **Formularios Pro:** Validación de datos y tipos de `input`.
+
+### 🔹 Estilos y Layouts (CSS)
+- [ ] **Flexbox:** Alineación de elementos en ejes.
+- [ ] **CSS Grid:** Creación de rejillas bidimensionales complejas.
+- [ ] **Variables CSS:** Uso de `--main-color` para sitios escalables.
+
+
+
+### 🔹 Responsive Design (Adaptabilidad)
+- [ ] **Media Queries:** Cómo cambiar el diseño según el tamaño de pantalla.
+- [ ] **Mobile First:** Estrategia de diseño empezando por celulares.
+
+---
+
+## 🎨 3. Mis Proyectos Personales (Originales)
+*Aquí detallo las 3 páginas creadas desde cero aplicando lo aprendido:*
+
+1.  **Proyecto A:** [Nombre/Descripción corta] - *Link de GitHub Pages:* [Insertar Link]
+2.  **Proyecto B:** [Nombre/Descripción corta] - *Link de GitHub Pages:* [Insertar Link]
+3.  **Proyecto C:** [Nombre/Descripción corta] - *Link de GitHub Pages:* [Insertar Link]
+
+---
+
+## 🛠️ 4. Comandos de Terminal Utilizados
+*Lista de comandos que domino en Bash/Git:*
+* `cd`: Navegar carpetas.
+* `ls`: Ver archivos.
+* `git commit -m "..."`: Guardar hitos.
+
+---
+
+### 💡 Instrucciones para el alumno:
+1. Copia este contenido en tu archivo `README.md`.
+2. A medida que completes un tema, marca la casilla cambiando `[ ]` por `[x]`.
+3. No olvides hacer `git push` cada vez que actualices esta bitácora.
+
+
+
+
